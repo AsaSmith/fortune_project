@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+.main {
+  height: 560px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.special-report {
+  width: 20%;
+  margin: auto;
+  float: left;
+  margin: 0 15px;
+}
+
+.special-report > .page-num {
+  color: red;
+  margin: 0;
+
+}
+
+.special-report > .title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.special-report > .feature {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.special-report > .author {
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 0 30px 0;
+}
+
+.special-report > .plus {
+  color: red;
+  float: right;
+  margin: 0 0 0 0;
+}
+
+img {
+  margin: 0 20px;
+  width: 50%;
+}
