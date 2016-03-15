@@ -29,6 +29,7 @@ h3 {
 .special-report > .page-num {
   color: red;
   margin: 0;
+  font-weight: normal;
 
 }
 
@@ -44,7 +45,7 @@ h3 {
 }
 
 .special-report > .author {
-  font-weight: 700;
+  font-weight: 600;
   font-style: italic;
   margin: 0 0 30px 0;
 }
@@ -58,4 +59,39 @@ h3 {
 img {
   margin: 0 20px;
   width: 50%;
+}
+
+.secondary {
+  float: right;
+  width: 20%;
+  margin: auto;
+
+}
+
+.secondary > .page-num {
+  color: red;
+  font-weight: normal;
+  margin: 0;
+}
+
+.secondary > .title {
+  font-weight: 700;
+  margin: 0;
+}
+
+.secondary > p {
+  margin: 0;
+  font-size: 80%;
+}
+
+.secondary > .author {
+  margin-bottom: 10px;
+  font-size: 600;
+  font-style: italic;
+}
+
+#fortune {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 700;
 }
